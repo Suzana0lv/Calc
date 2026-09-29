@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Faça seus cálculos</h1>
+
+        <!-- CARROSSEL -->
+        <section class="carrossel">
+
+            <div class="slides">
+
+                <!-- SLIDE 1 - CALCULADORA -->
+                <article class="slide">
+
+                    <section>
+
+                        <p class="result">0</p>
+
+                        <input type="number" id="firstNumber">
+
+                        <input type="number" id="secondNumber">
+
+                    </section>
+
+                    <section>
+
+                        <button class="button">
+                            <strong>Resultado</strong>
+                        </button>
+
+                    </section>
+
+                    <section>
+
+                        <p>Escolha uma opção</p>
+
+                        <select id="operacion">
+
+                            <option value="sum">Somar</option>
+
+                            <option value="subtraction">
+                                Subtrair
+                            </option>
+
+                            <option value="multiplication">
+                                Multiplicar
+                            </option>
+
+                            <option value="division">
+                                Dividir
+                            </option>
+
+                        </select>
+
+                    </section>
+
+                </article>
+
+
+                <!-- SLIDE 2 - SOBRE O PROJETO -->
+                <article class="slide sobre">
+
+                    <h2>Sobre o projeto</h2>
+
+                    <p>
+                        <strong>Projeto:</strong> Calculadora
+                    </p>
+
+                    <p>
+                        <strong>Desenvolvedora:</strong> Suzana Oliveira
+                    </p>
+
+                    <p>
+                        <strong>Curso:</strong> Técnico em Desenvolvimento de Sistemas
+                    </p>
+
+                    <p>
+                        <strong>Turma:</strong> RSTI-261M
+                    </p>
+
+                    <p>
+                        <strong>Unidade Curricular:</strong>
+                        Desenvolvimento Web
+                    </p>
+
+                    <p>
+                        <strong>Período:</strong> 2026
+                    </p>
+
+                    <p>
+                        <strong>Descrição:</strong>
+                        Projeto desenvolvido para praticar HTML, CSS e
+                        JavaScript, utilizando manipulação do DOM,
+                        eventos e carrossel de slides.
+                    </p>
+
+                    <p>
+                        <strong>Tecnologias:</strong>
+                        HTML5, CSS3 e JavaScript
+                    </p>
+
+                    <p>
+                        <strong>Repositório:</strong>
+                        <a href="#" target="_blank">
+                            GitHub do projeto
+                        </a>
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOTÕES DO CARROSSEL -->
+        <section class="controles">
+
+            <button id="anterior">
+                ← Anterior
+            </button>
+
+            <button id="proximo">
+                Próximo →
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p class="calc">
+            Calculator © 2026
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
